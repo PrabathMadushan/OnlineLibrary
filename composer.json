@@ -1,0 +1,11 @@
+{
+    "name": "vendor/online-library",
+    "description": "Description of project OnlineLibrary.",
+    "authors": [
+        {
+            "name": "Prabath",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {}
+}
