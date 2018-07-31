@@ -5,7 +5,9 @@
         <?php require './templates/imports.php'; ?>
     </head>
     <body>
-        <?php require './templates/slider.php'; ?>
-        <?php require './templates/managebooks.php'; ?>
+        <div class="menu">
+            <?php require './templates/mainmanu.php'; ?>
+            <?php require './templates/submmanagebook.php'; ?>   
+        </div>
     </body>
 </html>
