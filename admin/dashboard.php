@@ -7,7 +7,8 @@
         require './templates/imports.php';
         ?>
     </head>
-    <body>
-        <button class="btn btn-primary btn-sm">click on me</button>
+    <body >
+        <?php require './templates/slider.php';?>
+       
     </body>
 </html>

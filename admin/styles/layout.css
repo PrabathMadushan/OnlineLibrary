@@ -1,5 +1,22 @@
-.main {
-  background-color: green;
+body{
+    margin: 0px;
 }
 
-/*# sourceMappingURL=file:///C:/Users/Prabath/Documents/NetBeansProjects/OnlineLibrary/admin/styles/layout.css.map */
+.slider{
+   padding: 10px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.sub-navi{
+    padding: 10px;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+
+
+
