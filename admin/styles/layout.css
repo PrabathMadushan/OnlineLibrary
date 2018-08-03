@@ -6,38 +6,56 @@ body{
     height: 40px;
     background-color: #f0f0f0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
 }
 a{
-  color: #333;
-  margin-left: 20px;
+    color: #333;
+    margin-left: 20px;
 }
 
 a:hover{
     text-decoration: none;
 }
 .menu{
-    background-color: #333;
-    padding: 10px;
+    background-image: url("../images/download.jpg");   
+    background-color:#f0f0f0;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.in-menu{
+
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .btn{
     margin: 5px;
 }
 .slider{
-   margin: auto;
-   text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .sub-navi{
-   margin: auto;
-   text-align: center;
-   
+    margin: auto;
+    text-align: center;
+
 }
 
 .my-container{
     padding: 20px;
 }
 
+.where{
+    padding: 2px;
+    padding-left: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
+}
+
+#mt{    
+    transition: transform 200ms;
+}
+#mt:hover{
+    transform: rotate(360deg);
+}

@@ -1,7 +1,5 @@
 <?php
 require './templates/inits.php';
-
-
 ?>
 <html>
     <head>
@@ -12,9 +10,12 @@ require './templates/inits.php';
     <body>
         <?php require './templates/header.php'; ?>
         <div class="menu collapse" id="collapseExample">
-            <?php require './templates/mainmanu.php'; ?>
-            <?php require './templates/submmanagebook.php'; ?>   
+            <div class="in-menu">
+                <?php require './templates/mainmanu.php'; ?>
+                <?php require './templates/submmanagebook.php'; ?>   
+            </div>
         </div>
+        <?php require './templates/where.php'; ?>
         <div class="my-container">
             <form>
                 <div class="form-row">

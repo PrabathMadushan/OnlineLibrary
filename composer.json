@@ -7,5 +7,7 @@
             "email": "your@email.here"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
 }
