@@ -7,6 +7,9 @@
         <link href="styles/rcode.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <div class="title-wraper">
+            <h2><i class="fa fa-university"></i> Lowa State University</h2>              
+        </div>
         <div class="wraper">
             <form>
                 <div class="form-group">
@@ -14,7 +17,7 @@
                     <input class="form-control" type="text" name="rcode" placeholder="code">            
                 </div>
                 <div class="form-group" style="text-align: right;">
-                    <button type="submit" class="btn btn-success">validate</button>          
+                    <button type="submit" class="btn btn-success">Validate Code</button>          
                 </div>
                 <div class="form-group">
                     <a style="width: 100%;" class="btn btn-outline-success" href="rrequest.php">Send request for get code</a>
