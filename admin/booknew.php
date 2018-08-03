@@ -1,5 +1,14 @@
 <?php
 require './templates/inits.php';
+
+#----page properties----------#
+
+$page=PAGE_BOOKS_NEW;
+
+
+
+#-----------------------------#
+
 ?>
 <html>
     <head>
