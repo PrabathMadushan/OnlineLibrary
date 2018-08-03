@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<?php 
+<?php
 ?>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
+        <?php require './templates/imports.php' ?>;
+        <link href="styles/index.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <form>
